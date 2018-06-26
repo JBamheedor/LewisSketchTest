@@ -1,0 +1,212 @@
+/* General styles */
+
+body {
+    font-family: 'Chivo', sans-serif;
+}
+h6 {
+    text-transform: uppercase;
+}
+.no-gutters {
+    margin-bottom: 40px;
+}
+h5 {
+    color: #4D4F56;
+}
+h1 {
+    font-weight: 300;
+}
+.search-function .form-control, #location-btn, #budget-btn, #search-submit, h6, #btnDiscover {
+    color: #9B9DA0;
+    font-weight: 300;
+}
+
+/* Images */
+
+#home-image {
+    background-image: url("img/Main.png");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    width: 100%;
+}
+
+/* Nav */
+.nav {
+    align-items: center;
+}
+.navbar {
+    background: transparent;
+    border: none;
+    padding-top: 15px;
+}
+.nav-social {
+    display: flex;
+    justify-content: flex-end;
+ }
+.nav-tabs {
+    margin: 50px 0 40px;
+}
+.nav-link {
+    padding: 0 5px;
+}
+.nav-links {
+    font-weight: 300;
+}
+#btn-join-us {
+    background: #FFFFFF;
+    width: 100px;
+    height: 50px;
+    margin-left: 15px;
+}
+.navbar-right a {
+    color: white;
+}
+.top-nav li {
+    padding-right: 20px;
+    text-align: right;
+}
+.nav-tabs a{
+    color: #4D4F56;
+}
+.navbar-nav>li, .navbar-header{
+    float: none;
+    text-align: center;
+    display: inline-block;
+}
+.navbar-right a:hover{
+    text-decoration: underline;
+}
+.nav-tabs, .nav-tabs .nav-link.active, .nav-tabs .nav-link:hover {
+    border: none;
+}
+.nav-tabs .nav-link.active:after {
+    content: ""; 
+    display: block;
+    width: 40%; 
+    border-bottom: 3px solid #FF3434;
+    }
+
+/* Search function */
+
+#budget, #location {
+    margin-right: 10px;
+}
+.search-function {
+    margin-top: 50px;
+}
+
+#search-submit, #btnDiscover {
+    color: white;
+}
+.btn, .form-control {
+    height: 50px;
+}
+.dropdown-toggle {
+    text-align: left;
+    height: 50px;
+    background: #f2f2f2;
+    border: none;
+    color: black;
+}
+.form-control {
+    height: 50px;
+}
+.dropdown-toggle:hover {
+    background: #f2f2f2;
+    color: black;
+}
+.dropdown-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown .caret {
+    float: right;
+    margin-top: 8px;
+}
+.btn-danger {
+    width: 100%;
+    background: #FF3434;
+}
+
+/* Main content */
+.main-info {
+    max-width: 1200px;
+}
+.main-area {
+    margin-top: 100px;
+    max-width: 700px;
+}
+.artist-name {
+    padding: 15px 0;
+}
+.dropdown-toggle {
+    width: 100%;
+}
+.discover {
+    max-width: 175px;
+    margin: 0 auto 60px;
+}
+.location-info {
+    border-right: 1px solid #d9dae0;
+    border-top: 1px solid #d9dae0;
+    padding: 15px 0 0;
+}
+.price-info {
+    border-top: 1px solid #d9dae0;
+    padding: 15px 0 0 20px;
+}
+.artist-card {
+    padding: 0 20px 0;
+    margin-bottom: 30px;
+}
+.main-area h1 {
+    color:white;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* footer */
+footer {
+    padding: 25px;
+}
+footer a {
+    color: #B3B5BE;
+    padding-right:10px;
+}
+
+/* Media queries */
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 575px) {
+    .btn-danger {
+        margin-top: 15px;
+    }
+    #browseLink, #discoverLink {
+        display: none;
+    }
+    .nav-social, .nav-links {
+        justify-content: center;
+    }
+    .nav-links {
+        margin-top: 20px;
+    }
+    .main-area h1 {
+        text-align: left; 
+        font-size: 2em;
+    }
+    .main-area {
+        padding: 0;
+        margin-top: 150px;
+    }
+    #budget {
+        margin-right: 0px;
+    }
+    .top-nav li {
+        padding: 0;
+    }
+}
